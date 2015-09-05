@@ -5,7 +5,18 @@
     <atom:link href="http://jeffrey-kwan.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://jeffrey-kwan.com/</link>
     <description>Yet another coding blog</description>
-    <pubDate>Sat, 05 Sep 2015 00:13:51 -0700</pubDate>
+    <pubDate>Sat, 05 Sep 2015 00:40:23 -0700</pubDate>
+    
+      <item>
+        <title>Welcome</title>
+        <link>http://jeffrey-kwan.com/2015/09/05/welcome.html</link>
+        <guid isPermaLink="true">http://jeffrey-kwan.com/2015/09/05/welcome.html</guid>
+        <description>&lt;p&gt;Welcome!&lt;/p&gt;
+
+&lt;p&gt;First post just to test things out.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2015 00:00:00 -0700</pubDate>
+      </item>
     
   </channel>
 </rss>
