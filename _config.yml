@@ -11,8 +11,11 @@ theme:
   description: "Yet another coding blog" # used by search engines
 
   # Header and footer text
-  header_text: 'Yet another coding blog'
-  header_text_feature_image:
+  header_text: >
+    <p><strong>YACB:</strong></p>
+    <p>Yet Another Coding Blog</p>
+    <p></p>
+  header_text_feature_image: 'img/flynits-n-scrapers.jpeg'
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
@@ -27,7 +30,7 @@ theme:
   github: 'jeffreykwan/'
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: 'https://www.linkedin.com/in/jeffreyjkwan'
   pinterest:
   reddit:
   soundcloud:
@@ -39,7 +42,7 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: 'UA-67243310-1'
   disqus_shortname:
   katex: false # Enable if using math markup
 
