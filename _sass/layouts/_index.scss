@@ -21,12 +21,18 @@
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
+
     p a:hover {
       @extend %link-hover;
     }
+
+    header {
+      text-align: center;
+    }
   }
-  .excerpt {
-    margin-top: 1em;
+
+  .content {
+    margin-top: 6%;
   }
 }
 // Pagination

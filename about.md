@@ -2,9 +2,9 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/flynits-n-scrapers.jpg"
 ---
 
-Welcome to my blog!
+Hi! I'm Jeff and I'm a software engineer.
 
-This is just like any other coding blog. I'm simply jotting down my experiences and hopefully solutions to problems that I couldn't find the answers for. :grin:
+I'm here to share my experiences and have a place where I can look back on in the future. :grin:
