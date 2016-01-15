@@ -13,9 +13,7 @@ theme:
   # Header and footer text
   header_text:
   header_text_feature_image:
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
-
+  footer_text:
   # Icons
   rss: false
   email_address: # Full email address, e.g. "sam@example.com"
@@ -81,6 +79,6 @@ page:
   template: |
     ---
     title:
-    layout: pag
+    layout: page
     ---
 editor: atom
