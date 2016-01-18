@@ -15,7 +15,7 @@ theme:
   header_text_feature_image:
   footer_text:
   # Icons
-  rss: false
+  rss: true
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -24,7 +24,7 @@ theme:
   flickr:
   github: 'jeffreykwan/'
   google_plus:
-  instagram:
+  instagram: 'jeff.kwan'
   linkedin: 'https://www.linkedin.com/in/jeffreyjkwan'
   pinterest:
   reddit:
@@ -38,7 +38,7 @@ theme:
 
   # Scripts
   google_analytics: 'UA-67243310-1'
-  disqus_shortname:
+  disqus_shortname: 'jeffreykwan'
   katex: false # Enable if using math markup
 
   # Localization strings
@@ -74,6 +74,7 @@ post:
     ---
     title:
     layout: post
+    comments: true
     ---
 page:
   template: |
