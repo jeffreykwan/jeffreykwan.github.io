@@ -22,6 +22,12 @@
 .container ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+  .container ul {
+    flex-direction: row;
+  }
 }
