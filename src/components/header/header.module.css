@@ -1,0 +1,27 @@
+.container {
+  margin: 0px auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.container h1 {
+  flex-grow: 5;
+}
+
+.container a {
+  color: hsla(0,0%,0%,0.7);
+  text-decoration: none;
+}
+
+.container nav {
+  flex-grow: 1;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

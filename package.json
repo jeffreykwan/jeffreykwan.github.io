@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "jeffreykwan.github.io",
+  "description": "blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jeff Kwan <jeffureekwan@gmail.com>",
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
