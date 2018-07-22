@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header'
-import './layout.css'
+import Header from './header';
+import './layout.css';
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -26,7 +26,7 @@ const Layout = ({ children, data }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header title={data.site.siteMetadata.title} />
         <div
           style={{
             margin: '0 auto',
@@ -40,10 +40,10 @@ const Layout = ({ children, data }) => (
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
