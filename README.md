@@ -1,14 +1,26 @@
-# Type Theme
+# gatsby-starter-default
+The default Gatsby starter.
 
-![Default Type Theme blog](https://cloud.githubusercontent.com/assets/816965/5142407/19742e48-71d6-11e4-8d9d-fdfe010784f0.png)
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
+## Install
 
-## Get Started
+Make sure that you have the Gatsby CLI program installed:
+```sh
+npm install --global gatsby-cli
+```
 
-[Demo](https://rohanchandra.github.io/type-theme/)
+And run from your CLI:
+```sh
+gatsby new gatsby-example-site
+```
 
-[Using Type](https://rohanchandra.github.io/project/type/)
+Then you can run it by:
+```sh
+cd gatsby-example-site
+gatsby develop
+```
 
-## License
-The MIT License (MIT)
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
