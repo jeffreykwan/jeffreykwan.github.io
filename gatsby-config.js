@@ -3,7 +3,6 @@ module.exports = {
     title: 'Jeff Kwan',
   },
   plugins: [
-    'gatsby-plugin-eslint',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-typography',
