@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import styles from './nav.module.css';
+
 const Nav = ({ title }) => (
-  <nav>
-    <label />
-    <ul>
+  <nav className={styles.container}>
+    <label>Menu</label>
+    <ul role="navigation">
       <li>
         <Link to="/travel">Travel</Link>
       </li>

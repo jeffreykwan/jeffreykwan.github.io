@@ -8,7 +8,7 @@
 }
 
 .container h1 {
-  flex-grow: 5;
+  margin-right: auto;
 }
 
 .container a {
@@ -16,23 +16,8 @@
   text-decoration: none;
 }
 
-.container nav {
-  flex-grow: 1;
-}
-
-.container ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 @media screen and (min-width: 768px) {
   .container {
-    flex-direction: row;
-  }
-
-  .container ul {
     flex-direction: row;
   }
 }

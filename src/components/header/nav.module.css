@@ -1,0 +1,20 @@
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container li {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container label {
+    display: none;
+  }
+
+  .container ul {
+    flex-direction: row;
+  }
+}
